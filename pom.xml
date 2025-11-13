@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://www.w3.org/2000/09/pom-schema">
+
+  <model>com.practicesoftwaretesting</model>
+  <Group>com.practicesoftwaretesting</Group>
+  <version>1.0.0</version>
+  <packaging>
+    <dependency>
+      <pom group="test">
+        <artifact >
+          <goup>Cumber Test</group>
+          <version>7.2.2</version>
+          <comment>Cumber Test</comment>
+        </artifact>
+        <artifact>
+          <group>Selenium</group>
+          <version>4.1.10</version>
+          <comment>Selenium</comment>
+        </artifact>
+        <artifact>
+          <group>junit</group>
+          <version>4.1.2</version>
+          <comment>Junit</somment>
+        </artifact>
+        <artifact>
+          <group>cumber</group>
+          <version>7.1.0</version>
+          <comment>Cumber</comment>
+        </artifact>
+      </pom>
+    </dependency>
+  </packaging>
+</project>
